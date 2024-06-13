@@ -28,3 +28,24 @@
 .logout svg {
   margin-right: 5px;
 }
+
+
+
+.sidebar {
+    width: 220px;
+    position: fixed;
+    height: 100%;
+    background-color: #BB000E;
+    padding-top: 80px;
+    z-index: 1;
+}
+
+.sidebar.small {
+    width: 50px;
+}
+
+.sidebar-navigation {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
