@@ -1,0 +1,30 @@
+/* src/components/navigation/navigation.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header p {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.logout {
+  cursor: pointer;
+  color: #ff0000;
+  display: flex;
+  align-items: center;
+}
+
+.logout svg {
+  margin-right: 5px;
+}

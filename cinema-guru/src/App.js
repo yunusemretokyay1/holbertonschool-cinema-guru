@@ -1,6 +1,8 @@
 import './App.css';
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
+import Authentication from './routes/auth/Authentication';
+import Dashboard from './routes/dashboard/Dashboard';
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

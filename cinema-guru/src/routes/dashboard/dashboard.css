@@ -1,0 +1,8 @@
+.dashboard {
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.dashboard .movies {
+    padding: 100px 70px 0 70px;
+}
